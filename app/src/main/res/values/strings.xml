@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Casillero Virtual</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="auth_title">Inicia sesión o regístrate</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="title_tu_casillero">TU CASILLERO</string>
+    <string name="casillero_description">Con tu casillero virtual podrás recibir mercancías y compras...</string>
+
+    <string name="nombre_usuario">Nombre: JUAN ESTEBAN CANO MARÍN - CASV000001</string>
+    <string name="ciudad_estado">Ciudad: MIAMI | Estado: FLORIDA</string>
+    <string name="telefono_zip">Teléfono: +123456 | Zip Code: 33166</string>
+
+    <string name="btn_prealertas">PREALERTAS</string>
+    <string name="btn_mi_bodega">MI BODEGA</string>
+    <string name="btn_solicitudes">SOLICITUDES</string>
+    <string name="btn_pagos">PAGOS</string>
+    <string name="btn_en_transito">EN TRANSITO</string>
+</resources>

@@ -11,4 +11,5 @@
     <color name="background">#F5F5F5</color>
     <color name="darkGray">#333333</color>
     <color name="teal">#008080</color>
+    <color name="blue">#007BFF</color>
 </resources>

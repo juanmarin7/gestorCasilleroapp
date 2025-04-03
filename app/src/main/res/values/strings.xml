@@ -26,4 +26,9 @@
     <string name="btn_solicitudes">SOLICITUDES</string>
     <string name="btn_pagos">PAGOS</string>
     <string name="btn_en_transito">EN TRANSITO</string>
+    <string-array name="document_types">
+        <item>Cédula</item>
+        <item>NIT</item>
+        <item>Cédula Extranjera</item>
+    </string-array>
 </resources>

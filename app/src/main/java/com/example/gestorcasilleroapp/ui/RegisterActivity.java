@@ -2,8 +2,10 @@ package com.example.gestorcasilleroapp.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,7 +24,16 @@ public class RegisterActivity extends AppCompatActivity {
         EditText etConfirmPassword = findViewById(R.id.etConfirmPassword);
         Button btnRegister = findViewById(R.id.btnRegister);
         TextView tvLogin = findViewById(R.id.tvLogin);
+        Spinner spDocumentType = findViewById(R.id.spDocumentType);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+                this,
+                R.array.document_types,
+                android.R.layout.simple_spinner_item
+        );
 
+        // Estilo del Spinner
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spDocumentType.setAdapter(adapter);
         // Acción del botón de registro
         btnRegister.setOnClickListener(view -> {
             String fullName = etFullName.getText().toString().trim();
